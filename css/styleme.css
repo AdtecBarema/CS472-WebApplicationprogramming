@@ -1,5 +1,13 @@
 body{
-background-color:#123456;
+    color: aquamarine;    
+    background-color:white;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;    
 }
 
-h2{font-weight:bold;}
+h2{
+    color: #778890;
+    font-weight: normal;
+}
+
