@@ -1,5 +1,5 @@
 body{       
-    background-color:darkslategray;
+    background-color:darkgray;
     
     font-family: sans-serif;    
 }
@@ -16,7 +16,7 @@ h2{
 }
 
 p{
-    color: firebrick;
+    color: black;
     font-weight: bold;
     font-style: italic;
     
