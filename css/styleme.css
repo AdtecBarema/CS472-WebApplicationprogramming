@@ -3,13 +3,13 @@ body{
     
     font-family: sans-serif;    
 }
-
 h1{
   color:#66BFBF;
   font-size: 3.26em;
-  margin-top: 0
+  margin-top: 0;
 
 }
+
 h2{
     color: #fe8890;
     font-weight: normal;
@@ -18,6 +18,5 @@ h2{
 p{
     color: black;
     font-weight: bold;
-    font-style: italic;
-    
+    font-style: normal;    
 }
