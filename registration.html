@@ -1,0 +1,120 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Registration forms</title>
+  <link href="css/regstyle.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<from>
+  <div class="row">
+
+    <div class="column">
+      <p> Register now while places are available  </p>
+
+      <div class="control">
+        <label for="fname">First name<span class="required">*</span></label>
+        <input aria-describedby="required-description" id="fname" type="text" />
+      </div>
+
+      <div class="control">
+        <label for="lname">Last name<span class="required">*</span></label>
+        <input aria-describedby="required-description" id="lname" type="text" />
+      </div>
+
+      <div class="control">
+        <label for="company">Company<span class="required">*</span></label>
+        <input aria-describedby="required-description" id="company" type="text"/>
+      </div>
+      <div class="control">
+        <label for="address">Address<span class="required">*</span></label>
+        <textarea aria-describedby="required-description" id="address" type="text" rows="10" cols="20"> address ...</textarea>
+      </div>
+
+      <div class="control">
+        <label for="city">city</label>
+        <input aria-describedby="required-description" id="city" type="text" />
+      </div>
+      <div class="control">
+        <label for="state">State</label>
+        <select aria-describedby="required-description" name="state-or-province-or-country" id="state">
+          <option selected> Iowa</option>
+          <option> Alabama</option>
+          <option> Illinios</option>
+          <option> Ohio</option>
+        </select>
+      </div>
+
+
+      <div class="control">
+        <label for="state">Country</label>
+        <select>
+          <option selected> Ethiopia</option>
+          <option> Rwanda</option>
+          <option> United State</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="email">Email<span class="required">*</span></label>
+        <input aria-describedby="required-description" id="email" type="text" />
+      </div>
+
+
+      <div class="control">
+        <label for="phone">Phone number<span class="required">*</span> </label>
+        <input aria-describedby="required-description" id="phone" type="text" />
+      </div>
+    </div>
+
+
+    <div class="column">
+      <p> Lunch</p>
+
+
+      <div class="control">
+        <label for="mealpreference">Meal Preference</label>
+        <select aria-describedby="required-description" name="state-or-province-or-country" id="mealpreference">
+          <option selected> Vegiterain</option>
+          <option> Normal </option>
+          <option> Halal</option>
+        </select>
+      </div>
+
+
+      <p> Paymnet details</p>
+
+      <input type ="checkbox" name="cash"/> Cash<br/>
+      <input type ="checkbox" name="cheque"/> Cheque<br/>
+      <input type ="checkbox" name="draft"/> Demand draft<br/>
+      <p></p>
+
+
+      <div class="control">
+        <label for="Cheque">DD/Cheque number</label>
+        <input aria-describedby="required-description" id="Cheque" type="text" />
+      </div>
+
+      <div class="control">
+        <label for="bank">Drawn on (Bank name) </label>
+        <input aria-describedby="required-description" id="bank" type="text" />
+
+      </div>
+
+      <div class="control">
+        <label for="payable">Payable at </label>
+        <input aria-describedby="required-description" id="payable" type="text" />
+
+      </div>
+
+      <div><input type="submit"/>
+        <input type="reset"/>
+
+
+  
+      </div>
+    </div>
+  </div>
+</from>
+</body>
+
+</html>
