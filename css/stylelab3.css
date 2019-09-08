@@ -62,14 +62,14 @@ a:hover, a:active
 header
 {
 	height: 92px;
-	background: url(img/top.jpeg) no-repeat top left;
+	background: url(image/img-lab3/top.jpeg) no-repeat top left;
 }
 header  h1
 {	display: block;
 	padding: 15px;
 	border: 10px ;
 	text-align: center;
-	background: url(img/top.jpeg) no-repeat top left;
+	background: url(image/img-lab3/top.jpeg) no-repeat top left;
 	height: 62px;
 }
 
