@@ -1,0 +1,14 @@
+
+fieldset{
+    width: 400px;
+    height: 120px;
+}
+body{
+    margin: 30px;
+    alignment: center;
+}
+
+
+#errors{
+    color: red;
+}
